@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_div9MVMP8NDFK8XSVU"></div>
+        <div class="lime top_div" id="top_divF54OFYL2W0BYK9K"></div>
         
         <script>
-        var top_div = d3.select('#top_div9MVMP8NDFK8XSVU').classed('lime top_div', true);
+        var top_div = d3.select('#top_divF54OFYL2W0BYK9K').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["No Recurred", "Recurred"], [0.003958020721463074, 0.996041979278537]);
+            var pp = new lime.PredictProba(pp_svg, ["No Recurred", "Recurred"], [0.00491633374638806, 0.9950836662536117]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["No Recurred", "Recurred"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["Response > 2.00", 0.7715977198162141], ["N > 1.00", 0.09258002750355279], ["T > 3.00", 0.08019282014324493], ["Risk > 1.00", 0.05798615179099797], ["30.00 < Age <= 38.00", -0.038532967455123385], ["Adenopathy_No <= 0.00", 0.027288108394047838], ["Thyroid Function_Subclinical Hyperthyroidism <= 0.00", 0.023669101195954906], ["Physical Examination_Normal <= 0.00", -0.023147723395790618], ["Stage > 0.00", 0.02078380922811919], ["Thyroid Function_Clinical Hypothyroidism <= 0.00", 0.01806844152501771]], 1, exp_div);
+                exp.show([["Response > 2.00", 0.7667934151906676], ["N > 1.00", 0.08682766267440747], ["T > 3.00", 0.08254144794657028], ["Risk > 1.00", 0.06458419302772801], ["30.00 < Age <= 38.00", -0.032721201954623094], ["Stage > 0.00", 0.026764165550243676], ["Hx Radiothreapy_Yes <= 0.00", 0.026567252018824258], ["Adenopathy_No <= 0.00", 0.016947515350042082], ["Physical Examination_Normal <= 0.00", 0.015364822157966104], ["Smoking_Yes > 0.00", 0.01196447800970263]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["Response", "3.00", 0.7715977198162141], ["N", "2.00", 0.09258002750355279], ["T", "4.00", 0.08019282014324493], ["Risk", "2.00", 0.05798615179099797], ["Age", "35.00", -0.038532967455123385], ["Adenopathy_No", "0.00", 0.027288108394047838], ["Thyroid Function_Subclinical Hyperthyroidism", "0.00", 0.023669101195954906], ["Physical Examination_Normal", "0.00", -0.023147723395790618], ["Stage", "1.00", 0.02078380922811919], ["Thyroid Function_Clinical Hypothyroidism", "0.00", 0.01806844152501771]], 1, raw_div);
+            exp.show_raw_tabular([["Response", "3.00", 0.7667934151906676], ["N", "2.00", 0.08682766267440747], ["T", "4.00", 0.08254144794657028], ["Risk", "2.00", 0.06458419302772801], ["Age", "35.00", -0.032721201954623094], ["Stage", "1.00", 0.026764165550243676], ["Hx Radiothreapy_Yes", "0.00", 0.026567252018824258], ["Adenopathy_No", "0.00", 0.016947515350042082], ["Physical Examination_Normal", "0.00", 0.015364822157966104], ["Smoking_Yes", "1.00", 0.01196447800970263]], 1, raw_div);
         
         </script>
         </body></html>
